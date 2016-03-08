@@ -15,6 +15,7 @@
 
   <!-- Custom CSS -->
   <link href="css/mbh.css" rel="stylesheet">
+  <script src="js/main.js" charset="utf-8"></script>
 
   <!-- Fonts -->
   <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
@@ -60,11 +61,187 @@
     <!-- /.container -->
   </nav>
   <div class="container">
+    <div class="controls box">
+      <label>Filter:</label>
 
-    <div class="row">
+      <button class="filter btn-primary" data-filter="all">All</button>
+      <button class="filter btn-primary" data-filter=".vikram">Vikram</button>
+      <button class="filter btn-primary" data-filter=".madhav">Madhav</button>
 
+      <label>Sort:</label>
+
+      <button class="sort" data-sort="myorder:asc">Asc</button>
+      <button class="sort" data-sort="myorder:desc">Desc</button>
+    </div>
+
+  </div>
+
+  <div id="Container" class="container-fluid">
+    <div class="box">
+      <div class="col-md-3 mix madhav" data-myorder="7">
+        <img class="img-responsive gallery" src="img/slide-2.jpg" />
+      </div>
+      <div class="col-md-3  mix madhav" data-myorder="8">
+        <img class="img-responsive gallery" src="img/slide-1.jpg" />
+      </div>
+      <div class="col-md-3  mix madhav" data-myorder="4">
+        <img class="img-responsive gallery" src="img/slide-3.jpg" />
+      </div>
+      <div class="col-md-3 mix vikram" data-myorder="2">
+        <img class="img-responsive gallery" src="img/slide-2.jpg" />
+      </div>
+      <div class="col-md-3  mix vikram" data-myorder="3">
+        <img class="img-responsive gallery" src="img/chivla.jpg" />
+      </div>
+      <div class="col-md-3 mix vikram" data-myorder="5">
+        <img class="img-responsive gallery" src="img/slide-1.jpg" />
+      </div>
+      <div class="col-md-3  mix madhav" data-myorder="1">
+        <img class="img-responsive gallery" src="img/slide-3.jpg" />
+      </div>
+      <div class="col-md-3  mix vikram" data-myorder="4">
+        <img class="img-responsive gallery" src="img/chivla.jpg" />
+      </div>
+      <div class="col-md-3  mix vikram" data-myorder="10">
+        <img class="img-responsive gallery" src="img/bg.jpg" />
+      </div>
+      <div class="col-md-3  mix vikram" data-myorder="9">
+        <img class="img-responsive gallery" src="img/h.jpg" />
+      </div>
     </div>
   </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-sm-9">
+        <div class="box">
+          <div class="slider_1" id="slider_1">
+
+            <!-- Loading Screen -->
+            <div class="loading" data-u="loading">
+              <div class="clas1"></div>
+              <div class="clas2"></div>
+            </div>
+            <div class="curser" data-u="slides">
+              <div data-p="150.00">
+                <img data-u="image" src="img/01.jpg" caption="Birds are Cool" />
+                <img class="thumbnail" data-u="thumb" src="img/thumb-01.jpg" />
+              </div>
+              <div data-p="150.00">
+                <img data-u="image" src="img/02.jpg" />
+                <img class="thumbnail" data-u="thumb" src="img/thumb-02.jpg" />
+              </div>
+              <div data-p="150.00">
+                <img data-u="image" src="img/03.jpg" />
+                <img class="thumbnail" data-u="thumb" src="img/thumb-03.jpg" />
+              </div>
+              <div data-p="150.00">
+                <img data-u="image" src="img/04.jpg" />
+                <img class="thumbnail" data-u="thumb" src="img/thumb-04.jpg" />
+              </div>
+              <div data-p="150.00">
+                <img data-u="image" src="img/05.jpg" />
+                <img class="thumbnail" data-u="thumb" src="img/thumb-05.jpg" />
+              </div>
+              <div data-p="150.00">
+                <img data-u="image" src="img/06.jpg" />
+                <img class="thumbnail" data-u="thumb" src="img/thumb-06.jpg" />
+              </div>
+              <div data-p="150.00">
+                <img data-u="image" src="img/07.jpg" />
+                <img class="thumbnail" data-u="thumb" src="img/thumb-07.jpg" />
+              </div>
+              <div data-p="150.00">
+                <img data-u="image" src="img/08.jpg" />
+                <img class="thumbnail" data-u="thumb" src="img/thumb-08.jpg" />
+              </div>
+              <div data-p="150.00">
+                <img data-u="image" src="img/09.jpg" />
+                <img class="thumbnail" data-u="thumb" src="img/thumb-09.jpg" />
+              </div>
+              <div data-p="150.00">
+                <img data-u="image" src="img/10.jpg" />
+                <img class="thumbnail" data-u="thumb" src="img/thumb-10.jpg" />
+              </div>
+              <div data-p="150.00">
+                <img data-u="image" src="img/11.jpg" />
+                <img class="thumbnail" data-u="thumb" src="img/thumb-11.jpg" />
+              </div>
+              <div data-p="150.00">
+                <img data-u="image" src="img/12.jpg" />
+                <img class="thumbnail" data-u="thumb" src="img/thumb-12.jpg" />
+              </div>
+              <div data-p="150.00">
+                <img data-u="image" src="img/13.jpg" />
+                <img class="thumbnail" data-u="thumb" src="img/thumb-13.jpg" />
+              </div>
+              <div data-p="150.00">
+                <img data-u="image" src="img/14.jpg" />
+                <img class="thumbnail" data-u="thumb" src="img/thumb-14.jpg" />
+              </div>
+              <div data-p="150.00">
+                <img data-u="image" src="img/15.jpg" />
+                <img class="thumbnail" data-u="thumb" src="img/thumb-15.jpg" />
+              </div>
+              <div data-p="150.00">
+                <img data-u="image" src="img/16.jpg" />
+                <img class="thumbnail" data-u="thumb" src="img/thumb-16.jpg" />
+              </div>
+              <div data-p="150.00">
+                <img data-u="image" src="img/17.jpg" />
+                <img class="thumbnail" data-u="thumb" src="img/thumb-17.jpg" />
+              </div>
+              <!-- <div data-p="150.00">
+                <img data-u="image" src="img/18.jpg" />
+                <img class="thumbnail" data-u="thumb" src="img/thumb-18.jpg" />
+              </div>
+              <div data-p="150.00">
+                <img data-u="image" src="img/19.jpg" />
+                <img class="thumbnail" data-u="thumb" src="img/thumb-19.jpg" />
+              </div> -->
+              <div data-p="150.00">
+                <img data-u="image" src="img/20.jpg" />
+                <img class="thumbnail" data-u="thumb" src="img/thumb-20.jpg" />
+              </div>
+              <!-- <div data-p="150.00">
+                <img data-u="image" src="img/21.jpg" />
+                <img class="thumbnail" data-u="thumb" src="img/thumb-15.jpg" />
+              </div>
+              <div data-p="150.00">
+                <img data-u="image" src="img/12.jpg" />
+                <img class="thumbnail" data-u="thumb" src="img/thumb-12.jpg" />
+              </div>
+              <div data-p="150.00">
+                <img data-u="image" src="img/15.jpg" />
+                <img class="thumbnail" data-u="thumb" src="img/thumb-15.jpg" />
+              </div>
+              <div data-p="150.00">
+                <img data-u="image" src="img/15.jpg" />
+                <img class="thumbnail" data-u="thumb" src="img/thumb-15.jpg" />
+              </div> -->
+            </div>
+            <!-- Thumbnail Navigator -->
+            <div data-u="thumbnavigator" class="thumbnavigator" data-autocenter="2">
+              <!-- Thumbnail Item Skin Begin -->
+              <div data-u="slides" class="clas3">
+                <div data-u="prototype" class="p">
+                  <div class="w">
+                    <div data-u="thumbnailtemplate" class="t"></div>
+                  </div>
+                  <div class="c"></div>
+                </div>
+              </div>
+              <!-- Thumbnail Item Skin End -->
+            </div>
+            <!-- Arrow Navigator -->
+            <span data-u="arrowleft" class="arrowl" data-autocenter="2"></span>
+            <span data-u="arrowright" class="arrowr" data-autocenter="2"></span>
+          </div>
+          <!-- # Slider End -->
+        </div>
+      </div>
+    </div>
+  </div>
+
   <footer>
     <div class="container">
       <div class="row">
@@ -80,12 +257,15 @@
 
   <!-- Bootstrap Original JavaScript -->
   <script src="js/bootstrap.min.js"></script>
-
+  <script src="js/jquery.mixitup.min.js"></script>
   <!-- JScript for Carousel/Slider -->
   <script>
-    $('.carousel').carousel({
-      interval: 5000 //changes the speed
-    })
+    slider_1_slider_init();
+    $(function() {
+      // Instantiate MixItUp:
+      $('#Container').mixItUp();
+
+    });
   </script>
 
 </body>
